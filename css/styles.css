@@ -194,6 +194,7 @@ img {
 }
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .team-title {
   font-weight: 700;
@@ -203,13 +204,22 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .team-list {
+  display: flex;
+  gap: 24px;
 }
 .team-item {
   background: #fff;
+  flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
 }
 .team-image {
+}
+
+.team-bottom {
+  padding: 32px 0;
 }
 .team-subtitle {
   font-weight: 500;
@@ -218,6 +228,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .team-item-text {
   font-weight: 400;
