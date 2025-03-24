@@ -168,13 +168,14 @@ img {
   background-color: #404bbf;
 }
 .strengths {
+  padding: 120px 0;
 }
 .strengths-list {
   display: flex;
   gap: 24px;
 }
 .strengths-item {
-  flex-basis: calc((100% - 72px)) / 4;
+  flex-basis: calc((100% - 72px) / 4);
 }
 .strengths-subtitle {
   font-weight: 500;
