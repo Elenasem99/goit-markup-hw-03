@@ -25,6 +25,24 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -112,8 +130,11 @@ a {
   color: #404bbf;
 }
 
+/* main */
+
 .main {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .main-title {
   font-weight: 700;
@@ -122,8 +143,12 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .main-btn {
+  display: block;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -132,6 +157,12 @@ a {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
+  min-width: 169px;
+  margin: 0 auto;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: none;
+  height: 56px;
 }
 .main-btn:hover,
 .main-btn:focus {
