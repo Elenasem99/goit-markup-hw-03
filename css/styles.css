@@ -263,12 +263,14 @@ img {
 }
 
 .portfolio-bottom {
-  border-top: none;
-  border: 1px solid #e7e9fc;
   padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
+
 .portfolio-image {
 }
+
 .portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
